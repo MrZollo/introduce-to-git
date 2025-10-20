@@ -40,22 +40,22 @@ Git is a distributed version control system that helps developers track changes 
 2. Run the installer with default settings
 3. Verify installation: `git --version`
 
-### 🔧 Basic Git Commands
-## Configuration
-# Set your username
+# 🔧 Basic Git Commands
+### Configuration
+## Set your username
 git config --global user.name "Your Name"
 
-# Set your email
+## Set your email
 git config --global user.email "your.email@example.com"
 
-# Check configuration
+## Check configuration
 git config --list
 
-## Repository Management
-# Initialize a new repository
+# Repository Management
+## Initialize a new repository
 git init
 
-# Clone an existing repository
+## Clone an existing repository
 git clone https://github.com/username/repository.git
 
 # Check repository status
