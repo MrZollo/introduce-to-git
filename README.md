@@ -41,25 +41,64 @@ Git is a distributed version control system that helps developers track changes 
 3. Verify installation: `git --version`
 
 # 🔧 Basic Git Commands
-### Configuration
-## Set your username
+## Configuration
+### Set your username
 git config --global user.name "Your Name"
 
-## Set your email
+### Set your email
 git config --global user.email "your.email@example.com"
 
-## Check configuration
+### Check configuration
 git config --list
 
-# Repository Management
-## Initialize a new repository
+## Repository Management
+### Initialize a new repository
 git init
 
-## Clone an existing repository
+### Clone an existing repository
 git clone https://github.com/username/repository.git
 
-# Check repository status
+### Check repository status
 git status
 
-# View commit history
+### View commit history
 git log
+
+## Making Changes
+### Add specific file to staging
+git add filename.txt
+
+### Add all changes to staging
+git add .
+
+### Commit changes with message
+git commit -m "Descriptive commit message"
+
+### Commit all tracked files (skip git add)
+git commit -am "Quick commit"
+
+## Remote Repositories
+### Add remote repository
+git remote add origin https://github.com/username/repo.git
+
+### Push to remote repository
+git push -u origin main
+
+### Pull latest changes
+git pull origin main
+
+### View remote repositories
+git remote -v
+
+📊 Git Workflow
+Standard Workflow
+- Modify files in your working directory
+- Stage changes (git add)
+- Commit changes (git commit)
+- Push to remote repository (git push)
+
+<div align="center">
+<h1> 🎓 "Git is the backbone of modern software development"
+Happy Coding! 🚀 </h1> <br>
+⭐ Don't forget to star this repo if you found it helpful!
+</div>
